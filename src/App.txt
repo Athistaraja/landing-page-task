@@ -1,0 +1,21 @@
+import React from 'react'
+import Nav from './assets/components/Nav'
+import Header from './assets/components/Header'
+import Section1 from './assets/components/Section1'
+import Section2 from './assets/components/Section2'
+import Section3 from './assets/components/Section3'
+import Footer from './assets/components/Footer'
+
+
+export default function App() {
+
+  return (
+    <div>
+      <Nav />
+      <Header />
+      <Section1 />
+      <Section3 />
+      <Footer />
+    </div>
+  )
+}
